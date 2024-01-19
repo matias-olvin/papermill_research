@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "papermill-test"
+version = "0.1.0"
+description = ""
+authors = ["matias-olvin <matias@olvin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+papermill = "^2.5.0"
+ipykernel = "^6.29.0"
+pandas = "^2.1.4"
+seaborn = "^0.13.1"
+dask = "^2024.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
