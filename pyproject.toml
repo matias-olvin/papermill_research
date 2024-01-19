@@ -12,6 +12,7 @@ ipykernel = "^6.29.0"
 pandas = "^2.1.4"
 seaborn = "^0.13.1"
 dask = "^2024.1.0"
+ray = "^2.9.1"
 
 
 [tool.poetry.group.dev.dependencies]

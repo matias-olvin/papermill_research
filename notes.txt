@@ -1,2 +1,0 @@
-Dask method: Elapsed time: 7.287515878677368 seconds
-Using concurrent futures: Elapsed time: 6.071665287017822 seconds
